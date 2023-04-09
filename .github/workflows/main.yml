@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Sampel Cpu
+    - name: Set up Sampel CPU
       uses: Xilinx/setup-vivado@v1
       with:
         version: 2019.2
